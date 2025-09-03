@@ -12,7 +12,6 @@ import java.util.HashMap;
 public class Day1 implements IAOCPuzzle<ArrayList<ArrayList<Integer>>, Integer> {
 
     public Day1() {
-
     }
 
     public Integer part1() {
