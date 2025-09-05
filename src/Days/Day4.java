@@ -77,11 +77,6 @@ public class Day4 implements IAOCPuzzle<String[][], Integer> {
                         int posX = r + (x * i);
                         int posY = c + (y * i);
 
-//                        if(inBounds(posX,posY) && input[posX][posY].equals(Character.toString(XMAS.charAt(i)))) {
-//                        } else {
-//                            ok = false;
-//                            break;
-//                        }
                         if(!inBounds(posX,posY) || !input[posX][posY].equals(Character.toString(XMAS.charAt(i)))) {
                             ok = false;
                             break;
